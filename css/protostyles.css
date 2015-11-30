@@ -53,11 +53,11 @@
 }
 
 .values3 {
-  background-image: url('../images/Web-Design-Concept.jpg');  
+  background-image: url('../images/Web-Design-Concept copy.jpg');  
 }
 
 .values4 {
-    background-image: url('../images/web devlopment1.jpg');
+    background-image: url('../images/web devlopment1 copy.jpg');
 }
 .value-heading {
   height: 300px;
@@ -87,6 +87,8 @@
 
 #logo {
     position: absolute;
+    height: 100px;
+    width: 200px;
     top: 250px;
     left: 10px;
 }
