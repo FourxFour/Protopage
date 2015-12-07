@@ -23,7 +23,7 @@ section {
 
 /* THIS CREATES THE BUTTON (OUTSIDE) IN THE HAMBURGER*/  
   @media(max-width:550px){
-  .menu{
+.menu{
     display:block;
     position:relative;
     height:0.75em;
@@ -32,7 +32,7 @@ section {
   
   }
 /* THIS CREATES THE BUTTON (Inside) IN THE HAMBURGER*/
-  .menu div{
+.menu div{
     content: "";
     position: absolute;
     left: 0;
@@ -46,17 +46,17 @@ section {
                 0 0.25em 0 0 black,
                 0 0.5em 0 0 black;
   }
-  .menu_links{
+.menu_links{
     display:none;
     text-align:top;
     list-style-type: none;
   }
   
-  .menu_links li{
+.menu_links li{
     list-style-type: none;
     text-decoration:none;
   }
-  .menu_links li a{
+.menu_links li a{
      text-decoration:none;
 }
 
@@ -78,11 +78,14 @@ section {
     text-decoration: none;
 }
 
-#side_nav a:link, #side_nav a:visited, #side_nav a:hover, #side_nav a:active {
-    text-decoration: none;
-    
+
+#side_nav li {
+  list-style: none;
 }
 
+#side_nav li a {
+  text-decoration: none;
+}
 .top_nav {
     border-bottom: solid 1px;
 }
@@ -100,6 +103,7 @@ section {
 }
 
 }
+
 
 .section {
   padding: 8rem 0 7rem;
